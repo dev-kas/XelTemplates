@@ -1,0 +1,8 @@
+{
+    "name": "default",
+    "description": "Default template for Xel",
+    "version": "v0.1.0",
+    "main": "main.xel",
+    "xel": "^0.6.0",
+    "engine": "^2.1.0"
+}

@@ -1,0 +1,5 @@
+const strings = import("xel:strings)
+
+print("Hello world!")
+print("Welcome to your Xel project!")
+print(strings.format("You can now start editing `%v`", __filename__))
