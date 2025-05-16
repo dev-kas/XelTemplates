@@ -1,5 +1,12 @@
-const strings = import("xel:strings)
+// Import built-in string utilities
+const strings = import("xel:strings")
 
-print("Hello world!")
-print("Welcome to your Xel project!")
-print(strings.format("You can now start editing `%v`", __filename__))
+// Intro messages
+print("👋 Hello, Xel dev!")
+print("🚀 You've successfully created a new Xel project.")
+print("✍️ Start editing this file: " + __filename__)
+print("💡 Pro tip: use `xel run .` or `xel run main.xel` to run this project.")
+
+// Example usage of the string format utility
+let filename = __filename__
+print(strings.format("🛠 You can customize `%v` however you want.", filename))
